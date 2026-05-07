@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #F8F7F2;
+  --color-brand-text: #1A1A1A;
+  --color-brand-accent: #800020;
+  --color-brand-mustard: #FFDB58;
+  
+  --font-sans: "Inter", "Helvetica Neue", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+@layer base {
+  :root {
+    font-family: "Inter", system-ui, sans-serif;
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-text);
+  }
+  
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+}
