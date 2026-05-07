@@ -13,7 +13,7 @@ export default function MenuCard() {
       <div className="max-w-5xl mx-auto px-6">
         
         <div className="text-center mb-20">
-          <h2 className="font-serif text-4xl md:text-5xl text-[#F8F7F2] mb-4">お品書き</h2>
+          <h2 className="font-serif text-4xl md:text-5xl text-[#F8F7F2] mb-4">メニュー</h2>
           <div className="w-12 h-[1px] bg-[#800020] mx-auto"></div>
         </div>
 
@@ -45,7 +45,7 @@ export default function MenuCard() {
                   whileHover={{ height: 'auto', opacity: 1 }}
                   className="font-sans text-sm text-[#F8F7F2]/60 pt-2 hidden group-hover:block transition-all"
                 >
-                  風味: {item.notes}
+                  味わい: {item.notes}
                 </motion.p>
               </div>
             </motion.div>

@@ -39,7 +39,7 @@ export default function Hero() {
           className="overflow-hidden"
         >
           <h1 className="font-serif text-5xl md:text-7xl lg:text-9xl tracking-tighter text-[#1A1A1A] leading-tight mix-blend-multiply">
-            重力を、<br className="hidden md:block"/> 忘れる。
+            余白を、<br className="hidden md:block"/> 味わう。
           </h1>
         </motion.div>
 
@@ -49,8 +49,8 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.8 }}
           className="mt-8 md:mt-12"
         >
-          <p className="font-sans text-sm md:text-base text-[#1A1A1A]/70 uppercase tracking-[0.3em] max-w-md mx-auto">
-            時と重力が止まる、ミニマリズムの聖域。
+          <p className="font-sans text-sm md:text-base text-[#1A1A1A]/70 tracking-widest max-w-md mx-auto">
+            雑踏から少し離れた場所にある、小さなギャラリーのようなカフェ。
           </p>
         </motion.div>
       </div>

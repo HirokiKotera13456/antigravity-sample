@@ -8,7 +8,7 @@ test.describe('Cafe Eternity Homepage', () => {
     await expect(page.getByRole('link', { name: 'Eternity', exact: true }).first()).toBeVisible();
     
     // Check main catchphrase
-    await expect(page.locator('text=重力を、 忘れる。')).toBeVisible();
+    await expect(page.locator('text=余白を、 味わう。')).toBeVisible();
   });
 
   test('should have working navigation links', async ({ page }) => {
@@ -35,6 +35,6 @@ test.describe('Cafe Eternity Homepage', () => {
     await menuItem.hover();
     
     // Check if tasting notes are visible for the hovered item
-    await expect(page.locator('text=風味:').first()).toBeVisible();
+    await expect(page.locator('text=味わい:').first()).toBeVisible();
   });
 });

@@ -6,26 +6,26 @@ export default function Footer() {
         {/* Brand */}
         <div>
           <h2 className="font-serif text-2xl tracking-widest mb-4">Eternity</h2>
-          <p className="font-sans text-xs text-[#F8F7F2]/50 uppercase tracking-widest leading-loose">
-            重力を忘れ、<br />
-            時を止める。
+          <p className="font-sans text-xs text-[#F8F7F2]/50 tracking-widest leading-loose">
+            余白のある時間を、<br />
+            あなたに。
           </p>
         </div>
 
         {/* Location & Hours */}
         <div className="font-sans text-sm text-[#F8F7F2]/70 leading-loose">
-          <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-2">場所</p>
+          <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-2">Access</p>
           <p>東京都某区アートディストリクト 1-2-3</p>
-          <p>郵便番号 150-0000</p>
+          <p>〒150-0000</p>
           <br />
-          <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-2">営業時間</p>
-          <p>月曜 - 日曜 / 10:00 - 22:00</p>
+          <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-2">Open</p>
+          <p>月 - 日 / 10:00 - 22:00</p>
           <p>水曜定休</p>
         </div>
 
         {/* Social & Contact */}
         <div className="md:text-right flex flex-col md:items-end">
-           <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-4">公式SNS</p>
+           <p className="uppercase tracking-widest text-[#F8F7F2]/40 text-xs mb-4">Social</p>
            <div className="flex gap-4 mb-8">
              <a href="#" className="hover:text-[#800020] transition-colors" aria-label="Instagram">
                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>

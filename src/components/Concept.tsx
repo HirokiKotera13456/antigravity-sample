@@ -8,10 +8,10 @@ export default function Concept() {
         {/* Section Header */}
         <div className="mb-24 md:mb-40 flex justify-between items-end">
           <h2 className="font-serif text-4xl md:text-6xl text-[#1A1A1A]">
-            哲学と、<br className="md:hidden" /> 静寂
+            空間と、<br className="md:hidden" /> コーヒー
           </h2>
           <p className="hidden md:block font-sans text-sm tracking-widest uppercase text-[#1A1A1A]/50">
-            2026年創業
+            Since 2026
           </p>
         </div>
 
@@ -44,12 +44,12 @@ export default function Concept() {
             className="md:col-span-5 md:col-start-7 py-12 md:py-0 md:-mt-32"
           >
             <h3 className="font-serif text-2xl md:text-3xl text-[#1A1A1A] mb-6 leading-relaxed">
-              厳選された豆。<br /> 緻密な抽出。<br /> そして、絶対的な静寂。
+              豆の声を聞き、<br /> 丁寧に淹れる。<br /> ただ、それだけ。
             </h3>
             <p className="font-sans text-[#1A1A1A]/70 leading-loose">
-              私たちはコーヒーを単なる飲み物ではなく、一つの作品として捉えています。 
-              細部にまでこだわり抜かれた一杯は、日常を忘れさせる一瞬の静寂をもたらします。 
-              音と音の間の静寂こそが、私たちの真髄です。
+              一杯のコーヒーができるまでの時間は、ほんの数分。でも、その数分が1日の気分を変えてくれることがあります。
+              私たちは、最高の一杯を提供するための手間を惜しみません。静かな音楽と、コーヒーの香り。
+              心地よい余白の時間をお楽しみください。
             </p>
           </motion.div>
 
